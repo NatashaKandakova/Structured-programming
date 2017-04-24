@@ -1,0 +1,6 @@
+import math
+x=0.1
+while x<=2.2:
+    y=x**2-(math.cos(x+1))**2
+    print("X=", round(x, 2), "Y=", round(y, 9))
+    x +=0.2
